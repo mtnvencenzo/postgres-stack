@@ -73,7 +73,7 @@ psql -h localhost -p 5432 -U admin -d postgres
   - Data persistence enabled
 - **pgAdmin**: `http://localhost:5050` (HTTP)
   - Web UI for PostgreSQL management and monitoring
-  - Default Email: `admin@postgres.local`
+  - Default Email: `admin@admin.com`
   - Default Password: `password`
 
 ## 💾 Data Persistence
@@ -88,7 +88,7 @@ psql -h localhost -p 5432 -U admin -d postgres
 
 ### From pgAdmin
 1. Open `http://localhost:5050` in your browser
-2. Login with credentials: `admin@postgres.local` / `password`
+2. Login with credentials: `admin@admin.com` / `password`
 3. Right-click "Servers" → "Register" → "Server"
 4. Under "General" tab: Name = `Local PostgreSQL`
 5. Under "Connection" tab:
